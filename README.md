@@ -9,3 +9,11 @@
 
 Собственно, как выглядит сама таблица
  ![Как выглядит таблица](https://github.com/SunriseSunshine/habrMonkey/blob/main/xOhfdE1ZsxI.jpg)
+ 
+
+ Код первого блока таблицы(Основы государственности)
+ ![Код первого блока таблицы](https://github.com/SunriseSunshine/habrMonkey/blob/main/HXVj0ulOisQ.jpg)
+
+
+ Код второго блока таблицы(Основной уровень)
+ ![Код первого блока таблицы](https://github.com/SunriseSunshine/habrMonkey/blob/main/1I0zHpdmgXA.jpg)
