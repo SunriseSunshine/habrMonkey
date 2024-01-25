@@ -17,3 +17,30 @@
 
  Код второго блока таблицы(Основной уровень)
  ![Код первого блока таблицы](https://github.com/SunriseSunshine/habrMonkey/blob/main/1I0zHpdmgXA.jpg)
+
+Код, который у меня есть, но его нужно доработать
+(function() {
+'use strict';
+
+// Функция для изменения значения элемента
+function changeValue(element, newValue) {
+element.textContent = newValue;
+}
+
+// Изменяем значение элемента с классом "js-service-rating-td" на 80
+var element1 = document.querySelector('.js-service-rating-td.td-1');
+if (element1) {
+changeValue(element1, '80');
+}
+
+// Изменяем значение элемента с классом "js-some-other-class" на 23
+var element2 = document.querySelector('.js-some-other-class');
+if (element2) {
+changeValue(element2, '23');
+}
+
+// Сохраняем изменения в локальном хранилище для долгосрочного сохранения
+if (element1 || element2) {
+localStorage.setItem('customValue1', '80');
+localStorage.setItem('customValue2', '23');
+}
